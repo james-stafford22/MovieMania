@@ -7,7 +7,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Join our family of cinephiles and passionate film critics, we are dedicated to enriching the cinematic experience for enthusiasts and casual viewers alike by signing up!">
     <meta name="keywords" content="account sign-up, critic account, sign in">
-    <link rel="stylesheet" href="Style.css">
+    <style> /** Global Styles **/
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: #333;
+          background-color:#007bff;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+        }
+        
+        /** Main Layout **/
+        .wrapper {
+          max-width: 1200px; /* Max-width for the content */
+          margin: 0 auto; /* Center align the content */
+          padding: 20px; /* Padding around the content */
+        }
+        
+        /** Header **/
+        header {
+          background: #007bff; /* Blue background */
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+        }
+        
+        /** Logo **/
+        #logo {
+          width: 180px;
+          height: auto;
+        }
+        
+        /** Navigation Bar **/
+        nav {
+          display: flex; /* Use flexbox for the nav bar */
+          justify-content: center; /* Center items horizontally */
+          background: #333;
+          padding: 10px 0;
+        }
+        
+        nav ol {
+          list-style: none;
+          padding: 0;
+        }
+        
+        nav ol li {
+          display: inline;
+          margin: 0 15px;
+        }
+        
+        nav a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        
+        nav a:hover {
+          color: #ffd700; /* Gold on hover */
+        }
+        
+        /** Main Content **/
+        .content {
+          margin-top: 20px;
+        }
+        
+        /** Footer **/
+        footer {
+          background: #333;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+          position: relative;
+        }
+        
+        /** Typography **/
+        h1, h2, h3, h4, h5, h6 {
+          color: #007bff; /* Blue headers */
+        }
+        
+        p {
+          margin-bottom: 15px;
+        }
+        
+        /** Buttons **/
+        .button {
+          display: inline-block;
+          background: #007bff;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-decoration: none;
+          transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+          background-color: #0056b3;
+        }
+        
+        /** Cards **/
+        .card {
+          background: #fff;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          margin-bottom: 20px;
+          padding: 20px;
+          border-radius: 5px;
+        }
+        
+        /** Images **/
+        img {
+          max-width: 100%;
+          height: auto;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        /** Utility Classes **/
+        .text-center {
+          text-align: center;
+        }
+        
+        .clearfix::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .button {
+          display: inline-block;
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          text-align: center;
+          text-decoration: none;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .button:hover {
+          background-color: #0056b3;
+          transform: scale(1.05);
+        }
+        body {
+          font-family: 'Arial', sans-serif;
+          color: #333;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+        }
+        
+        header {
+          background-color: #007bff;
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        nav ul li {
+          display: inline;
+          margin-right: 20px;
+        }
+        
+        nav a {
+          color: white;
+          text-decoration: none;
+        }
+        
+        main {
+          text-align: center;
+          padding: 20px;
+        }
+        
+        main div {
+          margin-bottom: 20px;
+        }
+        
+        main h2 {
+          color: #007bff;
+        }
+        
+        main img {
+          width: 150px;
+          height: 150px;
+          border-radius: 10px; /* Rounded corners for images */
+          transition: transform 0.3s; /* Smooth transition for hover effect */
+        }
+        
+        main img:hover {
+          transform: scale(1.1); /* Slightly increase the size on hover */
+        }
+        
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+        }
+        .trailer-link {
+          color: blue; /* Or any color you prefer */
+          text-decoration: none; /* Removes underline from links */
+          cursor: pointer; /* Changes cursor to indicate it's clickable */
+        }
+        
+        .trailer-link:hover {
+          text-decoration: underline; /* Adds underline on hover for visual feedback */
+        }
+        
+          </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEC2V6J6XV"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
